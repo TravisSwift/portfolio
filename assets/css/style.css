@@ -42,6 +42,9 @@ header nav ul li {
 
 .row{
     display: flex;
+    min-height: 40;
+    margin: 5%;
+    padding: 5%;
 }
 
 .sidenav {
@@ -63,6 +66,13 @@ align-self: center;
     display: block;
 }
 
+.contact-links {
+font-size: 30px;
+display: flex;
+justify-content: space-evenly;
+
+
+}
 
 
 .projects {
