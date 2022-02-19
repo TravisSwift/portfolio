@@ -6,39 +6,64 @@
 }
 
 header  {
-    padding: 20px 35px;
+    /* padding: 20px 35px; */
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    background-image: url("businessman-image.jpg");
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-header h1 {
-padding: 35px;
+
+/* header h1 {
+padding: 35px; */
+
+header nav ul {
+    align-self: center;
+    display: flex;
+    margin-top: 1%;
+    padding-top: 2%;
+    justify-content: space-between;
 }
+
 
 header nav ul li {
-    float: right;
-    display: inline;
-    padding: 35px 40px;
-    flex-wrap: wrap;
-    flex: auto;
+    padding: 3%;
+    margin: 1%;
 }
-
 .hero {
     border: 2px solid black;
-    margin-left:  50px;
-    margin-right: 50px;
+    /*margin-left:  50px;
+    margin-right: 50px;*/
+    width: 100%;
+    height:auto;
+    background-image: url(../images/businessman-image.jpg)
 }
 
+.row{
+    display: flex;
+}
+
+.sidenav {
+width: 20%;
+align-self: center;
+}
+.sidenav h2{
+    padding: 5%;
+    font-size: 35px;
+    color:black;
+    background: linear-gradient(180deg,grey,white);
+}
+.content {
+    width: 80%;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
 .aside {
     display: block;
 }
 
-body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    }
+
 
 .projects {
     display: flex;
@@ -46,6 +71,4 @@ body {
     justify-content: space-around;
 }
 
-    @media screen {
-        max-width: 980px
-       }
+ 
