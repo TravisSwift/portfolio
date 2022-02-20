@@ -92,27 +92,28 @@ align-self: center;
 }
 
 .content {
-    justify-content: center;
-  }
+display: inline-block;  }
 
+/*
 .contact-links {
 font-size: 30px;
 display: flex;
 justify-content: space-evenly;
 list-style: none;
 }
+*/
 
 #projectimages {
 display:flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-evenly;
 }
 
 
 
 .projects {
     position: relative;
-    max-width: 50%;
+    flex-wrap: wrap;
  }
 
 
