@@ -1,0 +1,2 @@
+[0219/231548.044:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0219/231551.347:WARNING:spdy_session.cc(3391)] Received HEADERS for invalid stream 3
