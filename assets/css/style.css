@@ -24,6 +24,7 @@ header nav ul {
     margin-top: 1%;
     padding-top: 2%;
     justify-content: space-between;
+    list-style: none;
 }
 
 
@@ -70,6 +71,7 @@ align-self: center;
 font-size: 30px;
 display: flex;
 justify-content: space-evenly;
+list-style: none;
 }
 
 #projectimages {
