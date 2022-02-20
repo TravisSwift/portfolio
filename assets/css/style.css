@@ -70,15 +70,25 @@ align-self: center;
 font-size: 30px;
 display: flex;
 justify-content: space-evenly;
-
-
 }
+
+#projectimages {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
 
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    position: relative;
+    max-width: 50%;
+ }
 
+
+.projects h4 {
+position: absolute;
+bottom: 30px;
+background-color: aquamarine;
+}
  
