@@ -11,13 +11,26 @@ header  {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
+}
+
+header h1 {
+    justify-content: left;
+    padding: 3px;
+    align-content: center;
 }
 
 
 /* header h1 {
 padding: 35px; */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 header nav ul {
     align-self: center;
@@ -32,19 +45,21 @@ header nav ul {
 header nav ul li {
     padding: 3%;
     margin: 1%;
+    justify-content: space-around;
 }
 
 
 
 .hero {
     border: 2px solid black;
+    padding-left: 0px;
+    overflow: hidden;
+    align-self: ;
     /*margin-left:  50px;
     margin-right: 50px;*/
     /*width: 50%;*/
-    justify-content: center;
-    height:auto;
-   
-    background-image: url(../images/businessman-image.jpg)
+    /*justify-content: center; */
+
 }
 
 .row{
@@ -64,19 +79,20 @@ align-self: center;
     color:black;
     margin-right: 2px;
     border-right: 2px;
-    background: linear-gradient(180deg, cyan,white);
+    background: none);
 }
 .content {
     width: 80%;
     letter-spacing: 2px;
     font-size: 25px;
+    float: inline-start;
 }
 .aside {
     display: block;
 }
 
-img hover {
-    background-color: yellow;
+.content {
+    justify-content: center;
   }
 
 .contact-links {
@@ -89,7 +105,7 @@ list-style: none;
 #projectimages {
 display:flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 
