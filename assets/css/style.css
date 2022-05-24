@@ -4,8 +4,7 @@
     color: black;
     box-sizing: border-box;
     text-decoration: none;
-    body: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
-}
+    }
 
 
 .titleText {
@@ -173,8 +172,8 @@ header nav ul li {
 }
 
 .sidenav {
-width: 50%;
-align-self: center;
+
+align-self: right;
 }
 .sidenav h2{
     padding: 5%;
@@ -182,7 +181,8 @@ align-self: center;
     color:black;
     margin-right: 2px;
     border-right: 2px;
-    background: none);
+    background: none;
+    align-self: left;
 }
 
 #work {
